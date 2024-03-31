@@ -17,12 +17,12 @@ export default function TypewriterEffectSmoothDemo() {
     },
     {
       text: "Social Media.",
-      className: "text-cyan-500 dark:text-cyan-500",
+      className: "text-cyan-500",
     },
   ];
   return (
     <div className="flex flex-col items-center justify-center h-[40rem]  bg-black">
-      <p className="text-neutral-600 dark:text-neutral-200 text-xs sm:text-base  ">
+      <p className="text-white text-md sm:text-base  ">
         Hanyalah Mas-Mas Jawa yang Suka Teknologi
       </p>
       <TypewriterEffectSmooth words={words} />

@@ -16,7 +16,7 @@ export function TracingBeamDemo() {
 
             <p className="text-xl text-white mb-4)">{item.title}</p>
 
-            <div className="text-md text-white prose prose-sm dark:prose-invert">
+            <div className="text-md text-white prose prose-invert ">
               {item?.image && (
                 <Image
                   src={item.image}

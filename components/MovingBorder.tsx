@@ -18,7 +18,7 @@ export default function MovingBorder(Props: BtnProps) {
         onClick={openNewTab}
         borderRadius="1.75rem"
         target="_blank"
-        className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800 z-50 relatif"
+        className=" text-white border-slate-800 bg-slate-900   z-50 relatif"
       >
         {name}{" "}
         <svg

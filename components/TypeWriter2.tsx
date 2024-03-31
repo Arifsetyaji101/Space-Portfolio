@@ -8,7 +8,7 @@ export default function TypewriterEffectSmoothDemo() {
     },
     {
       text: "Timeline.",
-      className: "text-cyan-500 dark:text-cyan-500",
+      className: "text-cyan-500 ",
     },
   ];
   return (

@@ -10,7 +10,7 @@ export function CanvasRevealEffectDemo3() {
     <div
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
-      className="h-[40rem] flex flex-col lg:flex-row overflow-hidden items-center justify-center bg-black w-full gap-4 mx-auto px-8 relative"
+      className="h-[40rem] w-[100%] flex flex-col lg:flex-row overflow-hidden items-center justify-center bg-black  gap-4 mx-auto relative"
     >
       <p className="md:text-2xl text-2xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto">
         Hover or Click Me & See What Happen!
@@ -21,7 +21,7 @@ export function CanvasRevealEffectDemo3() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             exit={{ opacity: 0 }}
-            className="h-full w-full absolute inset-0"
+            className="h-full w-[100%] absolute inset-0"
           >
             <CanvasRevealEffect
               animationSpeed={5}
@@ -37,7 +37,7 @@ export function CanvasRevealEffectDemo3() {
         )}
       </AnimatePresence>
       {/* Radial gradient for the cute fade */}
-      <div className="absolute inset-0 [mask-image:radial-gradient(400px_at_center,white,transparent)] bg-black/50 dark:bg-black/90" />
+      <div className="absolute inset-0  " />
     </div>
   );
 }
