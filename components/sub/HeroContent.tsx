@@ -46,22 +46,13 @@ const HeroContent = () => {
           I&apos;m a Frontend Developer with experience in Website.{" "}
           {"Let's Get Started and Explore"}.
         </motion.p>
-        <div style={{ display: "flow" }}>
-          <motion.a
-            variants={slideInFromLeft(1)}
-            href="https://v1.vilebloom.my.id"
-            className="py-2 px-3 mx-2 button-primary text-center text-white cursor-pointer rounded-lg m-auto"
-          >
-            Vilebloom (v1)
-          </motion.a>
-          <motion.a
-            variants={slideInFromLeft(1)}
-            href="#skills"
-            className="py-2 px-3 mx-2 button-primary text-center text-white cursor-pointer rounded-lg m-auto"
-          >
-            Explore!
-          </motion.a>
-        </div>
+        <motion.a
+          variants={slideInFromLeft(1)}
+          href="#skills"
+          className="py-3 px-4 button-primary text-center text-white cursor-pointer rounded-lg m-auto"
+        >
+          Explore!
+        </motion.a>
       </div>
     </motion.div>
   );
