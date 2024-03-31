@@ -1,8 +1,8 @@
-import Encryption from "@/components/main/Encryption";
+import { CanvasRevealEffectDemo3 } from "@/components/CanvasReveal";
+import SparklesPreview from "@/components/SparklePreview";
+import TypewriterEffectSmoothDemo from "@/components/TypeWriter";
 import Hero from "@/components/main/Hero";
-import Projects from "@/components/main/Projects";
 import Skills from "@/components/main/Skills";
-import Image from "next/image";
 
 export default function Home() {
   return (
@@ -10,8 +10,9 @@ export default function Home() {
       <div className="flex flex-col gap-20">
         <Hero />
         <Skills />
-        <Encryption />
-        <Projects />
+        <CanvasRevealEffectDemo3 />
+        <SparklesPreview />
+        <TypewriterEffectSmoothDemo />
       </div>
     </main>
   );

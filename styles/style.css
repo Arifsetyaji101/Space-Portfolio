@@ -1,0 +1,109 @@
+@import "./specific/logo/logo.css";
+.bg-blue-vb {
+  background-color: #2d5773;
+}
+
+.blue-vb {
+  color: #2d5773;
+}
+
+.bg-purple-vb {
+  background-color: #d9799e;
+}
+
+.purple-vb {
+  color: #d9799e;
+}
+
+.bg-pink-vb {
+  background-color: #fb929e;
+}
+
+.pink-vb {
+  color: #fb929e;
+}
+
+.bg-orange-vb {
+  background-color: #fdc9ab;
+}
+
+.orange-vb {
+  color: #fdc9ab;
+}
+
+.bg-gray-vb {
+  background-color: #f9f9fb;
+}
+
+.gray-vb {
+  color: #f9f9fb;
+}
+
+.bg-blue-vb-80 {
+  background-color: #397094;
+}
+
+.blue-vb-80 {
+  color: #397094;
+}
+
+.bg-purple-vb-80 {
+  background-color: #f694ba;
+}
+
+.purple-vb-80 {
+  color: #f694ba;
+}
+
+.bg-pink-vb-80 {
+  background-color: #fea9b3;
+}
+
+.pink-vb-80 {
+  color: #fea9b3;
+}
+
+.bg-orange-vb-80 {
+  background-color: #ffd4bb;
+}
+
+.orange-vb-80 {
+  color: #ffd4bb;
+}
+
+.bg-neutral {
+  background-color: #ffffff;
+}
+
+.neutral {
+  color: #ffffff;
+}
+
+.meltow-100 {
+  font-family: "Meltow Sans 100 Rust";
+}
+
+.meltow-200 {
+  font-family: "Meltow Sans 200 Rust";
+}
+
+.meltow-300 {
+  font-family: "Meltow Sans 300 Rust";
+  line-height: 0.9 !important;
+}
+
+:root {
+  --blue-vb: #2d5773;
+  --purple-vb: #d9799e;
+  --pink-vb: #fb929e;
+  --orange-vb: #fdc9ab;
+  --gray-vb: #f9f9fb;
+  --blue-vb-80: #397094;
+  --purple-vb-80: #f694ba;
+  --pink-vb-80: #fea9b3;
+  --orange-vb-80: #ffd4bb;
+  --neutral: #ffffff;
+  --meltow-100: "Meltow Sans 100 Rust";
+  --meltow-200: "Meltow Sans 200 Rust";
+  --meltow-300: "Meltow Sans 300 Rust";
+}/*# sourceMappingURL=style.css.map */
