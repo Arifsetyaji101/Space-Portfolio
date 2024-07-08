@@ -44,7 +44,7 @@ const HeroContent = () => {
           className="text-lg text-gray-400 my-5 max-w-[600px] m-auto"
         >
           I&apos;m a Frontend Developer with experience in Website.{" "}
-          {"Let's Get Started and Explore"}.
+          {"Let's Get Started and Explore this Website"}.
         </motion.p>
         <motion.a
           variants={slideInFromLeft(1)}
