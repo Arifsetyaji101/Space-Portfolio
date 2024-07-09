@@ -37,7 +37,7 @@ export function TracingBeamDemo() {
 
 const dummyContent = [
   {
-    title: "My Graduation at 1 Pakem High School, Yogyakarta (2018 - 2021)",
+    title: "Lulus SMA 1 Pakem, Yogyakarta (2018 - 2021)",
     description: (
       <>
         <p>
@@ -47,11 +47,12 @@ const dummyContent = [
         </p>
       </>
     ),
-    badge: "High School",
+    badge: "SMA",
     image: "/me-3.jpg",
   },
   {
-    title: "at Troya Digital and Troya Academic Platform (2021 - August 2022)",
+    title:
+      "Ning Troya Digital lan Troya Academic Platform (2021 - August 2022)",
     description: (
       <>
         <p>
@@ -64,11 +65,11 @@ const dummyContent = [
         </p>
       </>
     ),
-    badge: "Internship & Work",
+    badge: "Magang & Kerjo",
     image: "/me-2.jpg",
   },
   {
-    title: "at Gadjah Mada University",
+    title: "Ning Universitas Gadjah Mada",
     description: (
       <>
         <p>
@@ -80,7 +81,7 @@ const dummyContent = [
         </p>
       </>
     ),
-    badge: "Student",
+    badge: "Mahasiswa",
     image: "/me-4.jpg",
   },
 ];

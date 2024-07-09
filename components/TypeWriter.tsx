@@ -4,26 +4,23 @@ import { TypewriterEffectSmooth } from "./ui/typewriter-effect";
 export default function TypewriterEffectSmoothDemo() {
   const words = [
     {
-      text: "Follow",
+      text: "Monggo",
     },
     {
-      text: "Me",
+      text: "di follow",
     },
     {
-      text: "on",
-    },
-    {
-      text: "My",
-    },
-    {
-      text: "Social Media.",
+      text: "Media Sosial",
       className: "text-cyan-500",
+    },
+    {
+      text: "Kula",
     },
   ];
   return (
     <div className="flex flex-col items-center justify-center h-[40rem]  bg-black">
       <p className="text-white text-md sm:text-base  ">
-        Hanyalah Mas-Mas Jawa yang Suka Teknologi
+        Namung Mas-Mas Jawa Tulen ingkang Seneng Teknologi
       </p>
       <TypewriterEffectSmooth words={words} />
       <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4">

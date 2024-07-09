@@ -20,7 +20,7 @@ const Navbar = () => {
           />
         </Link>
         <Link href="/about-me" className=" font-bold text-white">
-          About Me
+          Tentang Kula
         </Link>
       </div>
     </div>

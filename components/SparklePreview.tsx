@@ -6,7 +6,7 @@ export default function SparklesPreview() {
   return (
     <div className="pt-[100px] w-full flex flex-col items-center justify-center overflow-hidden rounded-md">
       <h1 className="md:text-4xl text-3xl lg:text-6xl font-bold text-center text-white relative z-20">
-        SPACE
+        JAWA JAWA JAWA
       </h1>
       <div className="w-[40rem] h-40 relative">
         {/* Gradients */}

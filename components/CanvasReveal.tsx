@@ -13,7 +13,7 @@ export function CanvasRevealEffectDemo3() {
       className="h-[40rem] w-[100%] flex flex-col lg:flex-row overflow-hidden items-center justify-center bg-black  gap-4 mx-auto relative"
     >
       <p className="md:text-2xl text-2xl font-medium text-center text-white relative z-20 max-w-2xl mx-auto">
-        Hover or Click Me & See What Happen!
+        Arahno cursor e ning kene utawa klik tulisan iki, apik pokokke!
       </p>
       <AnimatePresence>
         {hovered && (
